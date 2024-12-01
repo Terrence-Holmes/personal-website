@@ -15,7 +15,7 @@ function Skills() {
     "Godot",
     "GameMaker: Studio",
     "Git",
-    "Parsec",
+    "Perforce",
     "Microsoft Office",
     "Audacity",
     "Cakewalk by Bandlab",
