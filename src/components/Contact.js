@@ -49,7 +49,7 @@ function Contact() {
               <strong>Failed:</strong> {error.text}. Sending message failed.
               Please consider reaching out on{" "}
               <Alert.Link target="_blank"
-                href="https://www.linkedin.com/in/joshua-phillip-holmes/"
+              href="https://www.linkedin.com/in/terrence-holmes-929b92202/"
               >
                 social media
               </Alert.Link> instead.

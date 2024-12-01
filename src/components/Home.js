@@ -1,6 +1,11 @@
 /*
     cd C:\Users\joelh\Documents\Website\personal-website
+
+    To test:
     npm run start
+
+    To build:
+    npm run build
 */
 
 
