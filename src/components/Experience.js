@@ -4,43 +4,39 @@ import React from "react";
 function Experience() {
   const jobs = [
     {
-      employer: "Corteva Agriscience",
-      jobTitle: "Software Engineer I",
-      date: "April 2023 - Current",
+      employer: "Academy of Interactive Entertainment",
+      jobTitle: "Game Programming Course",
+      date: "August 2023 - Present",
       description: [
-        "Developed CI/CD automated scripts to manage the team's GitLab settings in one place with Python, Terraform, Docker, and Bash. Presented it to 50+ EMs, SEs, and PDMs",
-        "Leveraged Python and scheduled CI/CD pipelines to thoughtfully clean 4+ billion unnecessary images from PostgreSQL DB",
-        "Maintained microservices to retrieve satellite imagery of farm fields, save in Postgres DB and AWS S3 buckets, and serve via API, using AWS Lambda, S3, RDS, Python and Flask",
+        "Programming mostly in C#, C++ and Blueprints using the Unity and Unreal 5 game engines.",
+        "Worked as a part of a larger team with game designers, artists, and other programmers to collaberate on group projects.",
+        "Created a game in less than 24 hours with a small team as part of a game jam exercise.",
       ],
     },
     {
-      employer: "StatHero",
-      jobTitle: "Software Developer",
-      date: "March 2022 - April 2023",
-      description: [
-        "Developed web scraping bot with Node.js and Puppeteer, deployed on a GCloud instance, to retrieve data for internal MongoDB/Express.js sports API, saving thousands per year",
-        "Architected and developed new Affiliate and Referral programs with Python and Firebase to increase user base and engage new users",
-        "Built frontend reporting tools for internal app using Angular and TS to provide financial visibility",
-        "Automated reporting on a GCloud instance using Python scripting to cut time cost for team",
+    employer: "C#, C++, Blueprints",
+    jobTitle: "Unity and Unreal",
+    date: "2022 - Present",
+    description: [
+        "Developed various personal and school projects using Unity and Unreal, programmed using C#, C++ and Unreal's Blueprints.",
+        "Worked with Unity and Unreal in team settings, using Github and Perforce as version control to collaborate on the same project."
       ],
     },
     {
-      employer: "Echelon Group",
-      jobTitle: "Director of Operations",
-      date: "June 2019 – October 2021",
+      employer: "GDScript",
+      jobTitle: "Godot",
+      date: "2019 - Present",
       description: [
-        "Direct report to President, managed and budgeted wide variety of internal projects",
-        "Designed, refined, and automated high level process workflows using AgencyBloc CRM and created keystroke level procedural documentation",
-        "Designed, built, and implemented automated systems and databases using Python, MS Access, and Excel to track revenue in a highly complex financial landscape",
-        "Built commission processing database and data entry system in Access from scratch",
+        "Developed personal projects in 2D and 3D using the Godot game engine and GDScript programming language.",
+        "Created a game with a small team of students in Godot for our Winter Gamejam 2023 project."
       ],
     },
     {
-      employer: "Self-Employed",
-      jobTitle: "Freelance Hornist",
-      date: "December 2014 - October 2021",
+      employer: "GML",
+      jobTitle: "GameMaker: Studio",
+      date: "2010 - 2020",
       description: [
-        "Performed French Horn for orchestras, ballets, operas, chamber groups, and more",
+        "Created various games and other projects in GameMaker 8, GameMaker: Studio and GameMaker: Studio 2 using GameMaker's custom GML scripting language, as well their node-based visual scripting system."
       ],
     },
   ];

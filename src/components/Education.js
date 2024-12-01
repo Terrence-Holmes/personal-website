@@ -4,19 +4,27 @@ function Education() {
 
   const education = [
     {
-      school: "Flatiron School",
-      date: "Nov 2021 - Feb 2022",
-      degree: "Certificate of Completion",
-      description: "Learned full stack application development and a wide variety of technologies, including JavaScript, React, Ruby, and Ruby on Rails"
+      school: "Academy of Interactive Entertainment (AIE)",
+      date: "August 2023 - Present",
+      degree: "Advanced Diploma - Game Programming",
+      description: [
+        "Learned C# and C++ for general purpose use, as well as in-depth video game specific implimentations.",
+        "Built games using Unity, Unreal 5 and Godot 4 game engines.",
+        "Built games without a game engine using C++ and the Raylib library.",
+        "Collaborated on projects in team settings with other game designers, artists and programmers.",
+        "Learned how to use different version control software, including Github and Perforce.",
+        "Created games under tight time schedules and scrict deadlines, developing a sense of scope and priority."
+      ]
     },
     {
-      school: "Boise State University",
-      date: "Aug 2014 - Dec 2019",
-      degree: "Bachelor of Music in Performance",
+      school: "Homeschool",
+      date: "September 2012 - April 2016",
+      degree: "Highschool Diploma",
       description: [
-        "Minor in Marketing",
-        "Graduated Magna Cum Laude with a GPA of 3.84",
-        "Member of Beta Gamma Sigma as top 10% in business program",
+        "Got involved in several game design courses during my highschool years, and constantly built games as a hobby outside of school.",
+        "Built games using GML (Game Maker Language) in GameMaker 8, GameMaker: Studio and GameMaker: Studio 2.",
+        "Built games using LUA in Roblox studio.",
+        "Practiced game design by making adventure maps in Minecraft and experimenting with many level editors in many different games."
       ]
     },
   ]

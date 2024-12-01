@@ -14,9 +14,9 @@ function Lead() {
       <div id="lead-img"></div>
       <div id="lead" ref={ref}>
         <div id="lead-content">
-          <h1>Joshua Holmes</h1>
-          <TypingText timeLimit={0.5}>Software Engineer</TypingText>
-          <a href="https://docs.google.com/document/d/1k6MqBfN029_GrA8EsQ0h14dV12FzJn3SRg2TDgMBSAA/export?format=pdf" className="btn-rounded-white">
+          <h1>Terrence Holmes</h1>
+          <TypingText timeLimit={0.5}>Video game programmer and developer</TypingText>
+                  <a href="./Terrence-Holmes-Resume.pdf" className="btn-rounded-white" download>
             Download Resume
           </a>
         </div>

@@ -13,29 +13,24 @@ function About() {
           </div>
           <div className="col-md-8">
             <p>
-              Hi, I'm Josh! I am a highly motivated Software Engineer focused on
-              delivering scalable, reliable software. I am passionate about
-              learning new things! Currently, I design, build, and deploy APIs
-              and microservices at a mid-sized tech company in an agile
-              development environment. I have expertise in programming languages
-              such as Python, JavaScript/TypeScript, Rust, and C/C++. I also
-              have a solid understanding of the GNU/Linux environment, including
-              strong Bash scripting skills. I am a dedicated team player with
-              technical depth and a drive to deliver exceptional end products
-              for clients.
+               Hello, world!
             </p>
             <p>
-              Lately, I have started contributing to open source projects that I
-              am passionate about. So far, this includes Godot (game engine),
-              Firefox, and Rust-Embedded/Discovery. These are projects that I
-              believe are useful to the world and want to see succeed, so I help
-              them succeed by contributing code!
+              My name is Terrence Holmes. I'm a passionate
+              and excitable game programmer (and player) who's always eager to level-up
+              my skillset! I've been creating games as a hobbyist for 12+ years and I'm
+              currently attending AIE (Academy of Interactive Entertainment)
+              to turn my lifelong passion into a career.
+              I have expertise in several programming languages and game engines
+              including Unity, Unreal, Godot, etc. and I'm quick to pick up on new ones.
+              I'm a fast learner, highly adaptive to unfamiliar software, a dedicated team
+              player and always striving to excel at the task at hand.
             </p>
             <p>
-              I am also an experienced classical hornist and pianist, with over
-              20 years of total experience behind me. I have played in
-              professional operas, musicals, orchestras, ballets, on the street,
-              and much more!
+              I love to learn new things and I'm constantly looking to build onto my skillset.
+              Aside from programming, I also have experience in game design, audio engineering, 
+              music production, graphic design and film editing.
+              When I'm not creating, I'm usually either playing games or cooking delicious meals!
             </p>
           </div>
         </div>

@@ -8,7 +8,6 @@ function Nav() {
     "about",
     "experience",
     "projects",
-    "open-source",
     "education",
     "skills",
     "contact",

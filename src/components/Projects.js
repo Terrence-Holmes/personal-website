@@ -2,29 +2,40 @@ import React from "react";
 import TypingText from "./TypingText";
 
 function Projects() {
-
   const projects = [
     {
-      name: "Google Photos Metadata Fix",
-      description: "This is a command line application that fixes metadata for Google Photos exported pics ",
-      image: "./images/metadata-fix.jpg",
+      name: "Lobster Roll",
+          description: "This was my class minor-production project that was developed in Unity using C# by me and a team of 9 other people (including game designers and artists). I served the role of lead programmer for this project. The project was created under a tight deadline of ~2 months and helped further develop my teamwork/leadership skills and familiarity with the Unity engine and Perforce (version control).",
+      image: "./images/lobster-roll.jpg",
       links:[
         {
-          "name": "Github",
-          "link": "https://github.com/joshua-holmes/google-photos-metadata-fix"
+          "name": "Download on Itch",
+          "link": "https://aieseattle.itch.io/lobsterroll"
+         },
+        {
+         "name": "Trailer (YouTube)",
+         "link": "https://www.youtube.com/watch?v=qynrLnakn_E&ab_channel=DavidD"
         }
       ]
     },
     {
-      name: "Docker Template: Ruby on Rails",
-      description: "This project serves as a template that will allow you to toss your Ruby on Rails (can optionally include React frontend) application into a folder, configure a few settings, then quickly have a Dockerized app with it's own contained environment!",
-      image: "./images/docker-ror.jpg",
-      links: [
-        {
-          "name": "Github",
-          "link": "https://github.com/joshua-holmes/docker-template-ruby-on-rails"
-        }
-      ]
+        name: "Space Station Invasion",
+        description: "This was a solo project written in C++ using the Raylib library to handle the drawing of graphics. The challenge of this project was creating a game without any of the tools provided by a game engine, which helped me develop a better understanding of lower-level game programming.",
+        image: "./images/space-station-invasion.jpg",
+        links: [
+            {
+                "name": "Download on Itch",
+                "link": "https://terrence-holmes.itch.io/space-station-invasion"
+            },
+            {
+                "name": "Gameplay Footage (YouTube)",
+                "link": "https://www.youtube.com/watch?v=xbj9HvP1JH4&ab_channel=JoelHolmes"
+            },
+            {
+                "name": "Github",
+                "link": "https://github.com/TBoneHolmes/Space-Station-Invasion"
+            }
+        ]
     },
   ]
 
