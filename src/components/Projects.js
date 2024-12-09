@@ -37,6 +37,21 @@ function Projects() {
             }
         ]
     },
+    {
+        name: "Lap 6",
+        description: "This was a solo project made in Godot within a 4 week period. With this project, I set myself the challenge of completing it within a single month. I set deadlines and goals for each deadline, and then held myself to those deadlines, cutting down on scope when needed.",
+        image: "./images/lap-6.jpg",
+        links: [
+            {
+                "name": "Download on Itch",
+                "link": "https://terrence-holmes.itch.io/lap-6"
+            },
+            {
+                "name": "Github",
+                "link": "https://github.com/Terrence-Holmes/Lap-6"
+            }
+        ]
+    },
   ]
 
   // Create project link tags
