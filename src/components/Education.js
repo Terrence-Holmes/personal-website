@@ -6,7 +6,8 @@ function Education() {
     {
       school: "Academy of Interactive Entertainment (AIE)",
       date: "August 2023 - Present",
-      degree: "Advanced Diploma - Game Programming",
+      degree: "Advanced Diploma - Game Programming (Acquired in 2025)",
+      degree2: "Advanced Diploma - Game Design & Production (Expected to finish in 2027)",
       description: [
         "Learned C# and C++ for general purpose use, as well as in-depth video game specific implimentations.",
         "Built games using Unity, Unreal 5 and Godot 4 game engines.",
@@ -32,11 +33,12 @@ function Education() {
   return (
     <div id="education" className="background">
       <TypingText className="heading" timeLimit={0.5}>Education</TypingText>
-      {education.map(({school, date, degree, description}) => (
+      {education.map(({school, date, degree, degree2, description}) => (
         <div className="education-block" key={degree}>
           <h3>{school}</h3>
           <span className="education-date">{date}</span>
           <h4>{degree}</h4>
+          <h4>{degree2}</h4>
           {typeof description === "string" ? (
             <p>{description}</p>
           ) : (

@@ -15,7 +15,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Education from "./Education";
-import Skills from "./Skills";
+//import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -30,7 +30,6 @@ function Home() {
                 <Experience />
                 <Projects />
                 <Education />
-                <Skills />
             </div>
             <Contact />
             <Footer />

@@ -4,8 +4,27 @@ import TypingText from "./TypingText";
 function Projects() {
   const projects = [
     {
+      name: "License to Grill",
+          description: "For my 2025 major-production project, I worked in Unreal Engine 5 (C++) as a weapons and gameplay programmer, while also assisting my teammates with various Blueprinting tasks. Over the course of six months, my team successfully developed and released the project on Steam and Itch, and showcased it at PAX and SIX.",
+      image: "./images/license-to-grill.jpg",
+      links:[
+        {
+          "name": "Download on Steam",
+          "link": "https://store.steampowered.com/app/3884700/License_to_Grill/"
+         },
+        {
+          "name": "Download on Itch",
+          "link": "https://aieseattle.itch.io/licensetogrill"
+        },
+        {
+         "name": "Trailer (YouTube)",
+         "link": "https://www.youtube.com/watch?v=oEpllBueFLw&ab_channel=DavidD"
+        }
+      ]
+    },
+    {
       name: "Lobster Roll",
-          description: "This was my class minor-production project that was developed in Unity using C# by me and a team of 9 other people (including game designers and artists). I served the role of lead programmer for this project. The project was created under a tight deadline of ~2 months and helped further develop my teamwork/leadership skills and familiarity with the Unity engine and Perforce (version control).",
+          description: "This game was built for my 2024 class minor-production project. I collaborated with a team of nine designers and artists to develop a game in Unity (C#) and release it to Itch within a tight 4 month deadline. I served as Lead Programmer, overseeing core systems and supporting the team throughout development. The project strengthed my teamwork and leadership skills while deepening my experience with Git and Perforce for version control.",
       image: "./images/lobster-roll.jpg",
       links:[
         {
@@ -20,7 +39,7 @@ function Projects() {
     },
     {
         name: "Space Station Invasion",
-        description: "This was a solo project written in C++ using the Raylib library to handle the drawing of graphics. The challenge of this project was creating a game without any of the tools provided by a game engine, which helped me develop a better understanding of lower-level game programming.",
+        description: "This was a solo project written in C++ using the Raylib library to handle the drawing of graphics. The challenge of this project was creating a game without any of the tools provided by a game engine, which helped me develop a better understanding of low-level game programming.",
         image: "./images/space-station-invasion.jpg",
         links: [
             {

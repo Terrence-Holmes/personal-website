@@ -15,7 +15,7 @@ function Lead() {
       <div id="lead" ref={ref}>
         <div id="lead-content">
           <h1>Terrence Holmes</h1>
-          <TypingText timeLimit={0.5}>Video game programmer and developer</TypingText>
+          <TypingText timeLimit={0.5}>Gameplay and Systems Programmer</TypingText>
                   <a href="./Terrence-Holmes-Resume.pdf" className="btn-rounded-white" download>
             Download Resume
           </a>
@@ -24,6 +24,7 @@ function Lead() {
 
         <div id="lead-overlay"></div>
 
+        {/* Remove this line only to re-enable the lead-down arrow button.
         <div id="lead-down">
           <NavLink to="about">
             <i className="fa fa-chevron-down" aria-hidden="true"></i>

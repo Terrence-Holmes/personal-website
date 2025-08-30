@@ -9,7 +9,7 @@ function Nav() {
     "experience",
     "projects",
     "education",
-    "skills",
+    //"skills",
     "contact",
   ]
 
