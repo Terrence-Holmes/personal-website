@@ -13,6 +13,7 @@ import Nav from "./Nav";
 import Lead from "./Lead";
 import About from "./About";
 import Experience from "./Experience";
+import CurrentProject from "./CurrentProject";
 import Projects from "./Projects";
 import Education from "./Education";
 //import Skills from "./Skills";
@@ -27,8 +28,9 @@ function Home() {
             <Lead />
             <div id="content">
                 <About />
-                <Experience />
+                <CurrentProject />
                 <Projects />
+                <Experience />
                 <Education />
             </div>
             <Contact />

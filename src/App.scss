@@ -689,6 +689,7 @@ p.section-description {
     border-radius: 4px;
 }
 
+
 .project-image {
     float: left;
 
@@ -725,6 +726,22 @@ p.section-description {
         text-align: left;
     }
 }
+
+
+.project-large {
+    max-width: 960px;
+}
+
+.project-large .project-image img {
+    width: 330px;
+    height: 400px;
+    transform: rotate(0deg);
+}
+
+.project-large .project-info {
+    margin-left: 330px;
+}
+
 
 .no-image {
     .project-info {

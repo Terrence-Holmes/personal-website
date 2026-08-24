@@ -22,9 +22,27 @@ function Projects() {
         }
       ]
     },
+
+    {
+        name: "Get Off My Cloud!",
+        description: "My Game Design and Production course gave me the opportunity to exercise my design skills with this fast-paced, local-multiplayer brawler. My main focus on the team was designing and engineering the player controller and player-versus-player interactions, emphasizing tense, 'push-pull' style combat.",
+        image: "./images/get-off-my-cloud.jpg",
+        links: [
+            {
+                "name": "Download on Itch",
+                "link": "https://aieseattle.itch.io/get-off-my-cloud"
+            },
+            {
+                "name": "Gameplay Footage (YouTube)",
+                "link": "https://www.youtube.com/watch?v=XtbV7RN_fQU"
+            }
+        ]
+    },
+
+
     {
       name: "Lobster Roll",
-          description: "This game was built for my 2024 class minor-production project. I collaborated with a team of nine designers and artists to develop a game in Unity (C#) and release it to Itch within a tight 4 month deadline. I served as Lead Programmer, overseeing core systems and supporting the team throughout development. The project strengthed my teamwork and leadership skills while deepening my experience with Git and Perforce for version control.",
+          description: "For my 2024 class project, I collaborated with a team of nine designers and artists to develop a game in Unity (C#) and release it to Itch within a tight 4 month deadline. I served as Lead Programmer, overseeing core systems and supporting the team throughout development. The project strengthed my teamwork and leadership skills while deepening my experience with Git and Perforce for version control.",
       image: "./images/lobster-roll.jpg",
       links:[
         {
@@ -36,40 +54,6 @@ function Projects() {
          "link": "https://www.youtube.com/watch?v=qynrLnakn_E&ab_channel=DavidD"
         }
       ]
-    },
-    {
-        name: "Space Station Invasion",
-        description: "This was a solo project written in C++ using the Raylib library to handle the drawing of graphics. The challenge of this project was creating a game without any of the tools provided by a game engine, which helped me develop a better understanding of low-level game programming.",
-        image: "./images/space-station-invasion.jpg",
-        links: [
-            {
-                "name": "Download on Itch",
-                "link": "https://terrence-holmes.itch.io/space-station-invasion"
-            },
-            {
-                "name": "Gameplay Footage (YouTube)",
-                "link": "https://www.youtube.com/watch?v=xbj9HvP1JH4&ab_channel=JoelHolmes"
-            },
-            {
-                "name": "Github",
-                "link": "https://github.com/TBoneHolmes/Space-Station-Invasion"
-            }
-        ]
-    },
-    {
-        name: "Lap 6",
-        description: "This was a solo project made in Godot within a 4 week period. With this project, I set myself the challenge of completing it within a single month. I set deadlines and goals for each deadline, and then held myself to those deadlines, cutting down on scope when needed.",
-        image: "./images/lap-6.jpg",
-        links: [
-            {
-                "name": "Download on Itch",
-                "link": "https://terrence-holmes.itch.io/lap-6"
-            },
-            {
-                "name": "Github",
-                "link": "https://github.com/Terrence-Holmes/Lap-6"
-            }
-        ]
     },
   ]
 
@@ -89,7 +73,7 @@ function Projects() {
 
   return (
     <div id="projects" className="background">
-      <TypingText className="heading" timeLimit={0.5}>Projects</TypingText>
+      <TypingText className="heading" timeLimit={0.5}>Completed Projects</TypingText>
       <div className="container">
         <div className="row">
 

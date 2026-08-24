@@ -6,8 +6,8 @@ function Nav() {
 
   const pages = [
     "about",
-    "experience",
     "projects",
+    "experience",
     "education",
     //"skills",
     "contact",
