@@ -37,7 +37,7 @@ function About() {
                  Hello, world!
               </p>
               <p>
-                My name is Terrence Holmes (known by some as Joel). I'm a passionate game developer, specializing in gameplay and systems programming.
+                My name is Terrence Holmes. I'm a passionate game developer, specializing in gameplay and systems programming.
                 I've been creating games for over 14 years and officially transitioned my lifelong hobby into a career in 2023.
                 I earned an advanced diploma in Computer Science for Games from the Academy of Interactive Entertainment (AIE, Seattle) in 2025
                 and expect to receive a second advanced diploma (for Game Design and Production) in 2027.
